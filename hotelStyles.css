@@ -1,13 +1,10 @@
 body {
-    padding-top: 25%;
-    background-color: beige;
+    padding-top: 20%;
     text-align: center;
     background-image: url("Media/HertbertSamuel.jpg");
     background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: center;
-    background-position-y: 20px;
-    background-blend-mode: hard-light;
+    /*background-position: center;*/
+    background-size:cover;
 }
 
 button {
