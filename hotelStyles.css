@@ -1,12 +1,23 @@
-body {
-    padding-top: 20%;
+#header{
+    position: absolute;
     text-align: center;
-    background-image: url("Media/HertbertSamuel.jpg");
-    background-repeat: no-repeat;
-    /*background-position: center;*/
-    background-size:cover;
+    background: goldenrod;
+    width: 99%;
+}
+.content{
+    padding-top: 50px
 }
 
-button {
-    font-size: xx-large;
+h1{
+
+}
+body{
+    background-color: beige;
+}
+
+li{
+    /*border-bottom: solid black 1px;*/
+}
+span{
+    border-bottom: hidden;
 }
