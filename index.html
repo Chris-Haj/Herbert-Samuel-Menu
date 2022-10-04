@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-    button{
+    button {
         background-color: goldenrod;
-        border-radius:10px;
+        border-radius: 10px;
         font-size: x-large;
-        opacity: 70%;
+        opacity: 80%;
+        color:black;
     }
-    #content{
-        /*margin-top:70%;*/
-        /*padding: 10%;*/
+
+    button:hover{
+        opacity: 100%;
     }
-    /*#bg {*/
-    /*    text-align: center;*/
-    /*    background-image: url("Media/HertbertSamuel.jpg");*/
-    /*    background-repeat: no-repeat;*/
-    /*    background-size:auto;*/
-    /*    background-position: center;*/
-    /*    outline: 2px solid black;*/
-    /*}*/
-    body{
+
+    body {
         position: center;
         text-align: center;
     }
@@ -32,21 +26,19 @@
 </head>
 <body>
 
-<div id ="bg">
-    <img src="Media/HertbertSamuel.jpg" style="position: center; width: 100%" alt="HerbertSamuelLogo">
-</div>
-
+<img src="Media/HertbertSamuel.jpg" style="position: center; width: 100%" alt="HerbertSamuelLogo">
 
 <div id="content">
-<h1>
-    <button onclick="location.href='FoodMenu-En.html'" type="button">
-        Food Menu</button>
-    <button> תפרית אוכל</button>
-</h1>
-<h1>
-    <button onclick="location.href='DrinkMenu-En.html'" type="button" > Drinks Menu</button>
-    <button> תפרית שתיה </button>
-</h1>
+    <h1>
+        <button onclick="location.href='FoodMenu-En.html'" type="button">
+            Food Menu
+        </button>
+        <button> תפרית אוכל</button>
+    </h1>
+    <h1>
+        <button onclick="location.href='DrinkMenu-En.html'" type="button"> Drinks Menu</button>
+        <button> תפרית שתיה</button>
+    </h1>
 </div>
 </body>
 </html>
